@@ -92,7 +92,11 @@ const Main = () => {
               />
             </div>
             <div className="flex mt-6 justify-center">
-              <Button onClick={handleClick} variant="contained" color="success">
+              <Button
+                onClick={handleClick}
+                variant="contained"
+                sx={{ backgroundColor: "green !important" }}
+              >
                 Success
               </Button>
             </div>
